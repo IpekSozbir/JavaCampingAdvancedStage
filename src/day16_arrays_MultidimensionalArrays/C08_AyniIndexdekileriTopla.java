@@ -3,11 +3,12 @@ package day16_arrays_MultidimensionalArrays;
 import java.util.Arrays;
 
 public class C08_AyniIndexdekileriTopla {
+
     public static void main(String[] args) {
 
-        // Verilen 2 katli ve 2 inner array'e sahip bir array'de
-        // ayni index'e sahip elementleri toplayip,
-       // yeni olusturacagimiz tek katli bir array'e bu toplamlari atayin.
+    // Verilen 2 katli ve 2 inner array'e sahip bir array'de
+    // ayni index'e sahip elementleri toplayip,
+    // yeni olusturacagimiz tek katli bir array'e bu toplamlari atayin.
 
      //    input :      int[][] arr =  {{3,4,5}, {2,3,6,7}};
      //     output:                       [5, 7, 11]
@@ -23,9 +24,7 @@ public class C08_AyniIndexdekileriTopla {
         for (int i = 0; i <istenenArray.length ; i++) {
 
             istenenArray[i] = arr [0][i] + arr[1][i];
-
         }
         System.out.println(Arrays.toString(istenenArray));
-
     }
 }

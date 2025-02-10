@@ -1,12 +1,12 @@
 package day16_arrays_MultidimensionalArrays;
 
 public class C07_EnUzunKelime {
+
     public static void main(String[] args) {
 
         String[][] arr = {{"Ali", "okula", "git"},{"Merhaba", "arkadaslar"},{"Bu","is","olacak"}};
 
         // iki katli array'deki en uzun kelimeyi yazdirin
-
         // Tum elementleri kontrol edecek miyiz? Evet. fori fori
 
         String enUzunKelime = arr[0][0];
@@ -20,10 +20,6 @@ public class C07_EnUzunKelime {
                 }
             }
         }
-        System.out.println("en uzun kelime: " +enUzunKelime);
-
-
-
-
+        System.out.println("En uzun kelime: " +enUzunKelime);
     }
 }
