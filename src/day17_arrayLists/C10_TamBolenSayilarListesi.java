@@ -6,8 +6,8 @@ import java.util.List;
 public class C10_TamBolenSayilarListesi {
     public static void main(String[] args) {
 
-   // 30 sayisini tam bolebilen pozitif tamsayilari
-   // bir liste olarak yazdirin
+    // 30 sayisini tam bolebilen pozitif tamsayilari
+    // bir liste olarak yazdirin
 
         List<Integer> tamBolenlerListesi = new ArrayList<>();
 
@@ -18,8 +18,6 @@ public class C10_TamBolenSayilarListesi {
         }
 
         System.out.println(tamBolenlerListesi);
-
-
 
 
         System.out.println(tamBolenlerListesi(30));
@@ -34,11 +32,9 @@ public class C10_TamBolenSayilarListesi {
                 System.out.print(i +" ");
             }
         }
+    }
 
-
-
-
-    }   //  Soru 6- Verilen pozitif bir tamsayiyi,
+    // Verilen pozitif bir tamsayiyi,
     //  tam bolebilen tum pozitif tamsayilari bir liste olarak bize donduren bir method olusturun.
 
     public static List<Integer> tamBolenlerListesi (int sayi) {
@@ -51,7 +47,4 @@ public class C10_TamBolenSayilarListesi {
             }
         }return tamBolenlerListesi;
     }
-
-
-    }
-
+}
