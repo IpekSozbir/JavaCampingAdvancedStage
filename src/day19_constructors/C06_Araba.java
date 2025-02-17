@@ -1,7 +1,5 @@
 package day19_constructors;
 
-import java.security.PublicKey;
-
 public class C06_Araba {
 
     String marka = "Toyota";
@@ -19,12 +17,5 @@ public class C06_Araba {
                 " renk: " + renk +
                 " fiyat: " + fiyat
                 ;
-
     }
-
-
-
-
-
-
 }

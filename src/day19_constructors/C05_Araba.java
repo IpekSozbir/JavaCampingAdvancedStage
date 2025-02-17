@@ -16,7 +16,7 @@ public class C05_Araba {
 
     }
 
-    // bir kod blogunun constructor olmasi icin
+    // Bir kod blogunun constructor olmasi icin
     // mutlaka 2 sarti karsilamasi gerekir
     // 1. ismi class ismi ile ayni olmalidir (buyuk harfle baslar)
     // 2. return type olmaz
@@ -27,9 +27,5 @@ public class C05_Araba {
         // return type yok method olamaz
         // CTE verir calismaz
     }
-
        */
-
-
-
 }
