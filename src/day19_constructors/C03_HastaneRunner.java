@@ -1,6 +1,7 @@
 package day19_constructors;
 
 public class C03_HastaneRunner {
+
     public static void main(String[] args) {
 
         C02_Hastane per1 = new C02_Hastane();
@@ -25,12 +26,5 @@ public class C03_HastaneRunner {
         String adres = new C02_Hastane().perAdres;
 
         // Ya yazdirmalisin ya atamalisin
-
-
-
-
-
-
-
     }
 }

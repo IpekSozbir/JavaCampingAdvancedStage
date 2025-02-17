@@ -6,6 +6,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class C01_JavadaObjeOlusturma {
+
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
@@ -27,11 +28,5 @@ public class C01_JavadaObjeOlusturma {
         String str = "Ali";
         String isim = new String("Ali");
         // java Stringlere ayricalik yapmis
-
-
-
-
-
-
     }
 }

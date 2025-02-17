@@ -17,9 +17,9 @@ public class C04_HastaneRunner {
         o class'lardan olusturacagimiz objeler ile istedigimiz islemleri yapariz
 
         Java olsturulan her Class'dan obje olusturulabilmesi icin
-        her class'a bir constructor koymustur
+        her Class'a bir constructor koymustur
 
-        java'nin default olarak koydugu bu constructor gorunmez
+        Java'nin default olarak koydugu bu constructor gorunmez
 
         Default constructor parametresizdir
         ve bodysinde kod olmaz
@@ -28,9 +28,5 @@ public class C04_HastaneRunner {
         Java default constructor'i siler
 
          */
-
-
-
-
     }
 }
