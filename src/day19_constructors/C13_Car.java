@@ -20,8 +20,8 @@ public class C13_Car {
     C13_Car (String mrk, String mdl) {
         marka = mrk;
         model = mdl;
-
     }
+
 
     // 2 parametre olarak marka, model ve yil degerleri alan bir constructor olusturun
     C13_Car (String marka, String model, int yil) {
@@ -34,8 +34,8 @@ public class C13_Car {
        this.marka = marka;
         this.model = model;
         this.yil = yil;
-
     }
+
 
     // 3  Constructor'i intelliJ olusturabilir
     public C13_Car(String marka, String model, String renk, int yil, int fiyat) {

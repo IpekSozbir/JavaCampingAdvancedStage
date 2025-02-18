@@ -5,7 +5,7 @@ public class C12_KodOkumaDikkatEdilecekler {
     /*
     Kod okuma sorularinda bizi saisrtmak icin bekledigimiz atamalar yerine farkli ve ilgisiz atamalar yapilabilir
     Kod okuma sorularinda biz misafir oldugumuz icin kodda ne islem yapildi ise o islemi takip eder sonucunu kabul ederiz
-    CTE vermedigi surece kod icin ynalıs yazilmis diyemeyiz
+    CTE vermedigi surece kod icin yanlis yazilmis diyemeyiz
      */
 
     int sayi =23;
@@ -15,13 +15,14 @@ public class C12_KodOkumaDikkatEdilecekler {
     C12_KodOkumaDikkatEdilecekler (int sy, String ism) { // 1
         sayi =34;
         isim = ism.toUpperCase();
-
     }
+
 
     C12_KodOkumaDikkatEdilecekler () { // 2
         chr = '%';
         isim = "Esra";
     }
+
 
     C12_KodOkumaDikkatEdilecekler (int sy, String ism, char a) { // 3
         isim = ism;
@@ -31,10 +32,9 @@ public class C12_KodOkumaDikkatEdilecekler {
 
     public static void main(String[] args) {
 
-
-        C12_KodOkumaDikkatEdilecekler obj3 = new C12_KodOkumaDikkatEdilecekler(22, "Hamza" ,'p');
+        C12_KodOkumaDikkatEdilecekler obj3 = new C12_KodOkumaDikkatEdilecekler(22, "Hakan" ,'p');
         // obj3 icin 3 nolu constructor calisir
-        System.out.println(obj3.isim); // Hamza
+        System.out.println(obj3.isim); // Hakan
         System.out.println(obj3.sayi); // 22
         System.out.println(obj3.chr); // @
 
@@ -47,8 +47,6 @@ public class C12_KodOkumaDikkatEdilecekler {
 
 
 
-
-
         C12_KodOkumaDikkatEdilecekler obj1 = new C12_KodOkumaDikkatEdilecekler();
         // obj1 icin 2 nolu constructor calisir
         System.out.println(obj1.sayi); // 23
@@ -58,7 +56,4 @@ public class C12_KodOkumaDikkatEdilecekler {
         //kod'u takip etmeliyiz
 
     }
-
-
-
 }
