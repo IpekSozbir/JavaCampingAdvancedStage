@@ -2,7 +2,6 @@ package day20_constructorCall_staticKeyword;
 
 public class C04_StaticBlocks {
 
-
     /*
     static blocklar class calismaya baslarken
     her seyden hatta main methoddan bile once calisir
@@ -14,7 +13,7 @@ public class C04_StaticBlocks {
      */
 
     C04_StaticBlocks () {
-        System.out.println("constructor calisti");
+        System.out.println("Constructor calisti");
     }
 
 
@@ -42,10 +41,8 @@ public class C04_StaticBlocks {
     {
         // obje olusturulmadan yapilacak ayarlamalar icin kullanilir
         // her constructor calismasindan once static olmayan block calisir
+
         System.out.println("static olmayan kod blogu calisti");
     }
-
-
-
 
 }

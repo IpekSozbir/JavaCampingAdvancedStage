@@ -25,8 +25,8 @@ public class Rope {
 
         /*
             23.satirda Rope rope2; yazilip birakilsaydi
-            24.satirda rope2.play(); CTE verirdi.
-            Java, deger atamadin ki kullanasin derdi.
+            24.satirda rope2.play(); CTE verirdi
+            Java, deger atamadin ki kullanasin derdi
 
             null olarak isaretlendigi icin
             Java 24.satirda CTE vermez
@@ -34,7 +34,7 @@ public class Rope {
             24.satira gecildigildiginde
             rope2 objesi null olarak isaretlendiginden
             rope2 objesi kullanilmaya calisilirsa NullPointerException verir
-            ANCAKKK play() static oldugundan, rope2'ye ihtiyac duymaz
+            ANCAK play() static oldugundan rope2'ye ihtiyac duymaz
             bundan dolayi 24.satir calisir
 
          */
