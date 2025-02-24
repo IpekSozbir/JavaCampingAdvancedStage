@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.time.LocalTime;
 
 public class C04_LocalTime {
+
     public static void main(String[] args) {
 
         LocalTime localTimeBaslangic = LocalTime.now();
@@ -13,8 +14,8 @@ public class C04_LocalTime {
         // LocalTime class'i obje olusturdugumuz satir calistiginda
         // calistigi sistemdeki zaman bilgisini alir
 
-        // olusturulan localTme objesi bir kronometre degil
-        // olusturuldugu andaki degeri saklayan basit bir variable'dir
+        // Olusturulan localTme objesi bir kronometre degil
+        // Olusturuldugu andaki degeri saklayan basit bir variable'dir
 
 
         for (int i = 0; i <10000000 ; i++) {
@@ -52,15 +53,9 @@ public class C04_LocalTime {
 
 
         // yukardaki loop islem suresini baslangic ve bitis saniyeleri ile bulalım
-
         System.out.println(localTimeBitis.toSecondOfDay()-localTimeBaslangic.toSecondOfDay());
 
         // yukardaki loop islem suresini baslangic ve bitis nanosaniyeleri ile bulalım
-
         System.out.println(localTimeBitis.toNanoOfDay()-localTimeBaslangic.toNanoOfDay());
-
-
-
-
     }
 }
