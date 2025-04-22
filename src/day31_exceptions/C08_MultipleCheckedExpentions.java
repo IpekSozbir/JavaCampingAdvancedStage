@@ -42,14 +42,11 @@ public class C08_MultipleCheckedExpentions {
                 System.out.print((char) k);
             }
         } catch (FileNotFoundException e) {
-            System.out.println("verilen dosya yolu hatali....");
+            System.out.println("Verilen dosya yolu hatali....");
         } catch (IOException e) {
             System.out.println("Dosyadaki degerler okunamiyor");
         }
 
 
     }
-
-
-
 }

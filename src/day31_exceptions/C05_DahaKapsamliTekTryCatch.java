@@ -1,20 +1,22 @@
 package day31_exceptions;
 
 public class C05_DahaKapsamliTekTryCatch {
+
     public static void main(String[] args) {
+
         String str = "Java Candir";
         int [] arr = {1,2,3,4,5,3,4,2,3,4,5,6,7,5,4,3,4,5,7,6,5,9};
 
-        // verilen negatif olmayan bir sayiyi index olarka kabul edip
+        // verilen negatif olmayan bir sayiyi index olarak kabul edip
         // yukaridaki str ve arr'deki o indexte bulunan harfi ve sayiyi yazdirin
-        // eg4er kullanici index'ten buyuk sayi girerse
+        // eger kullanici index'ten buyuk sayi girerse
         // hata mesaji ve son indexi yazdirin
 
         int index = 26;
 
 
         if (index<0) {
-            System.out.println("index negatif olamaz");
+            System.out.println("Index negatif olamaz");
         } else {
             // 3. yontem : daha kapsamli tek try catch
             // Bu yontem digerlerine gore daha kisa
@@ -38,7 +40,6 @@ public class C05_DahaKapsamliTekTryCatch {
 
 
 
-        } // else sonu
-
+        }
     }
 }

@@ -5,16 +5,16 @@ public class C04_TekTryMultipleCatch {
         String str = "Java Candir";
         int [] arr = {1,2,3,4,5,3,4,2,3,4,5,6,7,5,4,3,4,5,7,6,5,9};
 
-        // verilen negatif olmayan bir sayiyi index olarka kabul edip
+        // verilen negatif olmayan bir sayiyi index olarak kabul edip
         // yukaridaki str ve arr'deki o indexte bulunan harfi ve sayiyi yazdirin
-        // eg4er kullanici index't4en buyuk sayi girerse
+        // eger kullanici index'ten buyuk sayi girerse
         // hata mesaji ve son indexi yazdirin
 
         int index = 26;
 
 
         if (index<0) {
-            System.out.println("index negatif olamaz");
+            System.out.println("Index negatif olamaz");
         } else {
             // 2. yontem : tke try multiple catch
             // 2 yontem de hatayi yakalar
@@ -34,9 +34,6 @@ public class C04_TekTryMultipleCatch {
 
 
 
-
-        } // else sonu
-
-
+        }
     }
 }

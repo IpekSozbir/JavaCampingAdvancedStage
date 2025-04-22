@@ -34,10 +34,8 @@ public class C01_TryCatchKullanimi {
 
 
 
-
         */
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Lutfen iki tam sayi giriniz...");
 
         int sayi1 = 0;

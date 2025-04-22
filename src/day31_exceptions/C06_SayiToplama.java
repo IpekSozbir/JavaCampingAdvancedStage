@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class C06_SayiToplama {
 
     // Kullanicidan toplamak uzere tam sayilar isteyin
-    // vve kullanici Q'ya veya q'ya basincaya kadar islemi devam ettirin
+    // ve kullanici Q'ya veya q'ya basincaya kadar islemi devam ettirin
     // Kullanici q'ya bastiginda kac adet sayi girildigini ve toplamin ne oldugunu yazdirin
 
     public static void main(String[] args) {
@@ -30,17 +30,11 @@ public class C06_SayiToplama {
                 if (girilenMetin.equalsIgnoreCase("q")) {
                     break;
                 } else {
-                    System.out.println("giris hatali... tamsayi veya Q olmali");
+                    System.out.println("Giris hatali... tamsayi veya Q olmali");
                 }
             }
 
         } while (! girilenMetin.equalsIgnoreCase("q"));
-        System.out.println("girilen " + sayac + " adet sayinin toplami: " + toplam);
+        System.out.println("Girilen " + sayac + " adet sayinin toplami: " + toplam);
     }
-
-
-
-
-
-
 }

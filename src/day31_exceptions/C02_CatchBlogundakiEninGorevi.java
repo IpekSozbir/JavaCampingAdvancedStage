@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class C02_CatchBlogundakiEninGorevi {
     public static void main(String[] args) {
 
-        // Kullanicidan iki tamsayi isteyip
+        // Kullanicidan iki tam sayi isteyip
         // sayilari birbirine bolun ve sonucu yazdirin
 
 
@@ -21,21 +21,19 @@ public class C02_CatchBlogundakiEninGorevi {
             sayi2 = scanner.nextInt();
 
             if (sayi2 == 0){
-                System.out.println("bolecek sayi 0 olamaz");
+                System.out.println("Bolecek sayi 0 olamaz");
             } else {
                 System.out.println(sayi1 / sayi2);
             }
 
         } catch (InputMismatchException e) {
-            System.out.println("girilen deger tamsayi olmalidir");
+            System.out.println("Girilen deger tamsayi olmalidir");
 
             System.out.println(e.getMessage()); // null
             System.out.println(e.getCause()); // null
             e.printStackTrace(); // hem butun hatayi yazdirir hem de normal calismaya devam eder code 0 der
-        }
 
-
-        /*
+             /*
         e yakalanan InputMismatchException hatasini kaydettigimiz variable'dir
         isminin e olmasi sart degildir
         ama genelde e kullanilir
@@ -44,7 +42,21 @@ public class C02_CatchBlogundakiEninGorevi {
 
          */
 
+            //System.out.println(e.getMessage()); // null
+            // System.out.println(e.getCause()); // null
+            e.printStackTrace();
+            /*
+                Hem butun exception detaylarini yazdirir
+                hem de normal calismaya devam eder
 
+                java.util.InputMismatchException
+                at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+                at java.base/java.util.Scanner.next(Scanner.java:1594)
+                at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+                at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+                at day31_exceptions.C02_CatchBlogundakiEninGorevi.main(C02_CatchBlogundakiEninGorevi.java:24)
+             */
 
+        }
     }
 }

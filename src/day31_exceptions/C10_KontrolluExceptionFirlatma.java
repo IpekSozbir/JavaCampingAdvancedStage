@@ -7,7 +7,6 @@ public class C10_KontrolluExceptionFirlatma {
 
     public static void main(String[] args) {
 
-
         // Kullanicidan ismini ve soyismini alin
         // eger ikisi de 4 harften uzunsa super
         // 4 harften kisa olan varsa kotu yazdirin
@@ -39,7 +38,5 @@ public class C10_KontrolluExceptionFirlatma {
         }
 
 
-
     }
-
 }

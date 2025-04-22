@@ -2,8 +2,6 @@ package day31_exceptions;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class C07_CheckedExceptions {
 
@@ -42,16 +40,13 @@ public class C07_CheckedExceptions {
            exception kontrol altina alinip e objesine kaydedilir
            ve kod normal calismaya devam eder
 
-        2- Eger exception'i kontrol altina almak ist4emiyorsak
-           (or, dosyaya ulasamiyorsak kodun calismay adevam etmesinin bir anlami kalmiyorsa)
+        2- Eger exception'i kontrol altina almak istemiyorsak
+           (or, dosyaya ulasamiyorsak kodun calismaya devam etmesinin bir anlami kalmiyorsa)
            amacimiz sadece kirmizi cizgiyi kaldirip
            Class'i Run edilebilir hale getirmek ise
            sorumlulugu aldigimiz Java'ya soylemeli
            ve bu class'i sonradan kullanacak insanlari uyarmaliyiz
-           Bunun ici n method signature'ina throws FileNotFoundException ekleyebiliriz
-
-
-
+           Bunun icin method signature'ina throws FileNotFoundException ekleyebiliriz
 
          */
 

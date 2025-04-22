@@ -1,6 +1,7 @@
 package day31_exceptions;
 
 public class C09_BaziExceptionTurleri {
+
     public static void main(String[] args) {
 
         // 1 -StringInexOutOfBoundsExceptions
@@ -11,6 +12,7 @@ public class C09_BaziExceptionTurleri {
         // 6- RunTimeException ==> Run Time da olusan tum exception'larin parent'i
         // 7- Exception ==> tum exceptionlarin parent'i
         // 8- NullPointerException
+
         String str = null;
         System.out.println(str); // null
         System.out.println(str + " candir"); // null candir
@@ -29,7 +31,6 @@ public class C09_BaziExceptionTurleri {
 
         String str1 = (String) obj; // Object HAS - A String  yazabildigimiz icin cast yapilabilir
         // System.out.println(str1);
-
 
 
     }
